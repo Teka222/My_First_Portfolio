@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Tweets Page</title>
 </head>
 <body>
     <header>
@@ -15,22 +15,18 @@
     
     <main>
         <article>
-            <h1>Main Heading (H1)</h1>
-            <p>This is the first paragraph. It provides some introductory text about the content of the page.</p>
-            <p>This is the second paragraph. It continues to elaborate on the topic introduced in the first paragraph.</p>
-            <p>This is the third paragraph. Here, additional details and explanations can be provided to further enhance the content.</p>
-            <p>This is the fourth paragraph. This paragraph concludes the content and may summarize the key points discussed.</p>
+            <h1>My Tweets</h1>
             
-            <h2>Subheading (H2)</h2>
-            <p>Content under the subheading. This section provides more detailed information about a specific aspect of the topic.</p>
+            <!-- Embed a tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">This is an example of an embedded tweet. Check out the official Twitter documentation for more details!</p>
+                &mdash; Tekano Meso (@mesoagnes)
+                <a href="https://twitter.com/mesoagnes/status/1234567890123456789">Date of Tweet</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             
-            <h3>Sub-subheading (H3)</h3>
-            <p>Content under the sub-subheading. This section dives even deeper into the topic with more specific details.</p>
-            
-            <p>Below is a clickable image:</p>
-            <a href="https://www.example.com" target="_blank">
-                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" width="200">
-            </a>
+            <!-- Link back to index.html -->
+            <p><a href="index.html">Back to Homepage</a></p>
         </article>
         
         <aside>
@@ -43,7 +39,6 @@
     </footer>
 </body>
 </html>
-
     <!-- Add this link to tweets.html -->
     <p><a href="tweets.html">See my tweets</a></p>
 </body>
